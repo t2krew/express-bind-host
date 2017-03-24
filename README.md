@@ -14,7 +14,7 @@ let bindHost = require('express-bind-host');
 let app = express();
 
 app.use(bindHost({
-	hosts : [127.0.0.1:3000]
+	hosts : ['127.0.0.1:3000']
 }))
 
 app.listen(3000);
