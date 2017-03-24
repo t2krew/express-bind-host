@@ -1,0 +1,37 @@
+{
+  "name": "express-bind-host",
+  "version": "1.0.0",
+  "description": "Bind the available host to Express Server.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.15.2",
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t2krew/express-bind-host.git"
+  },
+  "keywords": [
+    "express",
+    "bind",
+    "host",
+    "middleware"
+  ],
+  "author": "krew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t2krew/express-bind-host/issues"
+  },
+  "homepage": "https://github.com/t2krew/express-bind-host#readme"
+}
