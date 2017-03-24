@@ -2,12 +2,12 @@
 Bind the available  host to Express Server.
 
 
-###Installation
+### Installation
 ```powershell
 $ npm install express-bind-host --save
 ```
 
-###Usage
+### Usage
 ```javascript
 let bindHost = require('express-bind-host');
 
