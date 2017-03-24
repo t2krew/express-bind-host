@@ -11,7 +11,7 @@ module.exports = function BindHost(opts) {
     throw new TypeError('option must contain hosts');
   }
   let $all = false,hosts = opts.hosts;
-  
+
   if (typeof hosts === 'string' && hosts !== '*') {
     hosts = [hosts];
   } else if (hosts === '*') {
@@ -20,7 +20,7 @@ module.exports = function BindHost(opts) {
 
   return function(req, res, next) {
     let headers = req['headers'],
-        host = headers['host'] || headers['X-Forwarded-Host'];
+        host = headers['X-Forwarded-Host'] || headers['host'];
 
     if ($all) {
       next();
